@@ -1,9 +1,9 @@
-html,body{
-height: 100%;
-	margin: 0px;
-	padding: 0px;
+html { 
+    height:100%;
 }
-
+body { 
+    min-height:100%;
+}
 #home {
 	background: #020507;
 	margin:0px;
