@@ -255,66 +255,8 @@ span{
 }
 
 
-
-
-
-
-
-
-
-
-
-
- 
-  /* laptop hidpi */
-   /* @media only screen and (min-device-width: 1440px) and (max-device-height: 900px){
-
-	.logo2{
-
-		width: 450px;
-		height: 450px;
-		top:700px;
-	}
-
-	.com{
-
-		font-size: 35px;
-	}
-
-	span{
-
-		font-size: 25px;
-
-
-	}
-
-	.descr{
-
-		bottom: 60px;
-	}
-
-	#fone{
-
-		font-size: 40px;
-
-	}
-
-	#env{
-
-		font-size: 30px;
-		padding-right: 15px;
-
-	}
-
-
-  } */
-
-
-
-
-
   /* iphone X */
-  @media only screen and (min-device-width: 375px) and (max-device-height: 812px){
+  @media only screen and (max-device-width: 375px) and (max-device-width: 812px){
 
 	.social-links ul li{
 
@@ -333,7 +275,7 @@ span{
 
 		width: 600px;
 		height: 600px;
-		top:700px;
+		margin-top: 400px;
 	}
 
 
@@ -373,140 +315,9 @@ span{
 
 
 
-   
-
-  
-   /* ipad */
-/* 
-   @media only screen and (min-device-width: 768px) and (max-device-height: 1024px) {
 
 
-	.social-links ul li{
-
-		font-size: 40px;
-	}
-
-
-	.logo{
-
-		width: 300px;
-		height: 300px;
-
-	}
-
-	.logo2{
-
-		width: 600px;
-		height: 600px;
-		top: 300px;
-		
-	}
-
-
-	.com{
-
-		font-size: 45px;
-	}
-
-	span{
-
-		font-size: 35px;
-
-
-	}
-
-	.descr{
-
-		bottom: 150px;
-	}
-
-	#fone{
-
-		font-size: 40px;
-
-	}
-
-	#env{
-
-		font-size: 30px;
-		padding-right: 15px;
-
-	}
-
-
-
-
-
-   } */
-
-
-
-
-
-
-
-     /* ipad pro
-
-	 @media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) {
-
-
-		.social-links ul li{
-	
-			font-size: 40px;
-		}
-	
-	
-		.logo{
-	
-			width: 300px;
-			height: 300px;
-	
-		}
-	
-		.logo2{
-	
-			width: 600px;
-			height: 600px;
-			top: 300px;
-			
-		}
-	
-	
-		.com{
-	
-			font-size: 45px;
-		}
-	
-		span{
-	
-			font-size: 35px;
-	
-	
-		}
-	
-		.descr{
-	
-			bottom: 150px;
-		}
-	
-		#fone{
-	
-			font-size: 40px;
-	
-		}
-	
-		#env{
-	
-			font-size: 30px;
-			padding-right: 15px;
-	
-		}
-	
-	
-	
-	
-	
-	   } */
+    
 
 
 	     /* iphone 6/7/8 plus */
@@ -516,7 +327,7 @@ span{
 
 		.logo2{
 	
-			top: 500px;
+			margin-top: 250px;
 			
 		}
 
@@ -548,7 +359,7 @@ span{
 	
 			width: 600px;
 			height: 600px;
-			top: 450px;
+			margin-top: 200px;
 			
 		}
 	
@@ -596,7 +407,7 @@ span{
 	   /* galaxy s5 */
 
 
-/* @media only screen and (min-device-width: 360px) and (max-device-height: 640px) {
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) {
 
 
 	.social-links ul li{
@@ -616,7 +427,7 @@ span{
 
 		width: 600px;
 		height: 600px;
-		top: 450px;
+		margin-top: 250px;
 		
 	}
 
@@ -652,7 +463,7 @@ span{
 	}
 
 
-   } */
+   }
 
 
 
@@ -681,6 +492,7 @@ span{
 
 		width: 600px;
 		height: 600px;
+		
 		
 		
 	}
@@ -749,7 +561,7 @@ span{
 
 		width: 600px;
 		height: 600px;
-		top: 550px;
+		margin-top: 350px;
 		
 	}
 
@@ -820,7 +632,7 @@ span{
 
 		width: 600px;
 		height: 600px;
-		top: 450px;
+		margin-top: 250px;
 		
 	}
 
@@ -863,7 +675,7 @@ span{
 
 
 /* Galaxy note 3 */
-   @media only screen and (min-device-width: 360px) and (max-device-height: 640px) {
+   /* @media only screen and (min-device-width: 360px) and (max-device-height: 640px) {
 
 
 
@@ -921,14 +733,390 @@ span{
 
 
 
-   }
+   } */
+
+
+
+
+   /* ipad  */
+
+ @media only screen and (max-device-width: 768px) {
+
+
+
+	.social-links ul li{
+
+		font-size: 40px;
+	}
+
+
+	.logo{
+
+		width: 300px;
+		height: 300px;
+
+	}
+
+	.logo2{
+
+		width: 600px;
+		height: 600px;
+		top: 250px;
+		
+	}
+
+
+	.com{
+
+		font-size: 45px;
+	}
+
+	span{
+
+		font-size: 35px;
+
+
+	}
+
+	.descr{
+
+		bottom: 150px;
+	}
+
+	#fone{
+
+		font-size: 40px;
+
+	}
+
+	#env{
+
+		font-size: 30px;
+		padding-right: 15px;
+
+	}
+
+
+
+}
+
+
+
+ /* ipad  */
+
+ @media only screen and (max-device-width: 1024px) {
+
+
+
+	.social-links ul li{
+
+		font-size: 40px;
+	}
+
+
+	.logo{
+
+		width: 300px;
+		height: 300px;
+
+	}
+
+	.logo2{
+
+		width: 600px;
+		height: 600px;
+		top: 250px;
+		
+	}
+
+
+	.com{
+
+		font-size: 45px;
+	}
+
+	span{
+
+		font-size: 35px;
+
+
+	}
+
+	.descr{
+
+		bottom: 150px;
+	}
+
+	#fone{
+
+		font-size: 40px;
+
+	}
+
+	#env{
+
+		font-size: 30px;
+		padding-right: 15px;
+
+	}
+
+
+
+}
+
+
+/* nokia n9 */
+
+@media only screen and (max-device-width: 480px) {
+
+	.social-links ul li{
+
+		font-size: 40px;
+	}
+
+
+	.logo{
+
+		width: 300px;
+		height: 300px;
+
+	}
+
+	.logo2{
+
+		width: 600px;
+		height: 600px;
+		margin-top: 250px;
+		
+	}
+
+
+	.com{
+
+		font-size: 45px;
+	}
+
+	span{
+
+		font-size: 35px;
+
+
+	}
+
+	.descr{
+
+		bottom: 150px;
+	}
+
+	#fone{
+
+		font-size: 40px;
+
+	}
+
+	#env{
+
+		font-size: 30px;
+		padding-right: 15px;
+
+	}
+
+
+
+}
+
+
+/* laptp */
+
+/* @media only screen and (max-device-width: 1280px) {
+
+
+
+
+	.social-links ul li{
+
+		font-size: 30px;
+	}
+
+
+	.logo2{
+
+		width: 400px;
+		height: 400px;
+		margin-top: 0px;
+		padding-top: 0px;
+		top:150px;
+		
+	}
+
+	.com{
+
+		font-size: 30px;
+	}
+
+	span{
+
+		font-size: 20px;
+
+
+	}
+
+	.descr{
+
+		bottom: 20px;
+	}
+
+	#fone{
+
+		font-size: 35px;
+
+	}
+
+	#env{
+
+		font-size: 25px;
+		padding-right: 15px;
+
+	}
+
+
+
+
+} */
+
+
+/* galaxy */
+/* @media only screen and (max-device-width: 360px) {
+
+
+	.social-links ul li{
+
+		font-size: 30px;
+	}
+
+
+	.logo2{
+
+		width: 450px;
+		height: 450px;
+	
+		
+		top:550px;
+		
+	}
+
+	.com{
+
+		font-size: 40px;
+	}
+
+	span{
+
+		font-size: 30px;
+
+
+	}
+
+	.descr{
+
+		bottom: 60px;
+	}
+
+	#fone{
+
+		font-size: 35px;
+
+	}
+
+	#env{
+
+		font-size: 25px;
+		padding-right: 15px;
+
+	}
 
 
 
 
 
+}
+ */
 
 
+/*
+@media only screen and (max-device-width: 600px) {
+
+
+
+ 
+	.social-links ul li{
+
+		font-size: 40px;
+	}
+
+
+	.logo2{
+
+		width: 500px;
+		height: 500px;
+	
+		
+		top:550px;
+		
+	}
+
+	.com{
+
+		font-size: 40px;
+	}
+
+	span{
+
+		font-size: 35px;
+
+
+	}
+
+	.descr{
+
+		bottom: 100px;
+	}
+
+	#fone{
+
+		font-size: 35px;
+
+	}
+
+	#env{
+
+		font-size: 25px;
+		padding-right: 15px;
+
+	}
+
+
+
+} */
+
+
+
+@media only screen and (min-device-width: 240px) and (max-device-width: 320px) {
+
+
+
+	.logo2{
+
+	
+	
+	top:25px;
+		
+	}
+
+
+
+
+}
   
 
 
