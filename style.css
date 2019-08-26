@@ -1,5 +1,7 @@
 #home {
 	background: #020507;
+	margin:0px;
+	padding:0px;
 	width: 100vw;
 	height: 100vh;
 	/* min-height: 800px; */
@@ -9,6 +11,8 @@
  #home .shadow-overlay {
     z-index: 1;
 	position: absolute;
+	margin:0px;
+	padding:0px;
 	top: 0;
 	left: 0;
 	width: 100vw;
@@ -27,11 +31,14 @@
 
 .slider {
     width: 100vw;
-    height: 100vh;
-    
+	height: 100vh;
+	margin:0px;
+	padding:0px;
     position: absolute;
   }
   .slide1,.slide2,.slide3,.slide4 {
+	margin:0px;
+	padding:0px;
     position: absolute;
     width: 100vw;
     height: 100vh;
